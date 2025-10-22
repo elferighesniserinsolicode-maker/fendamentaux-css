@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(to bottom right, #c8d8ff, #f4f7ff);
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+
+header {
+  background: white;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+header h1 {
+  color: #274c77;
+  font-size: 2.2em;
+  margin-bottom: 10px;
+  
+}
+
+header p {
+  font-weight: bold;
+  color: #3a3a3a;
+}
+
+header img {
+  margin-top: 15px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+section {
+  background: white;
+  width: 80%;
+  max-width: 700px;
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h2 {
+  color: #274c77;
+  margin-bottom: 15px;
+  border-left: 5px solid #6096ba;
+  padding-left: 10px;
+  font-size: 1.6em;
+}
+
+p, li, td {
+  line-height: 1.6;
+  font-size: 1em;
+}
+
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 0.95em;
+}
+
+th {
+  background-color: #274c77;
+  color: white;
+  padding: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.loisirs ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.loisirs li {
+  background-color: #e0e7ff;
+  color: #274c77;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+
+
+footer {
+  background: #274c77;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 700px;
+}
+
+footer a {
+  color: #bde0fe;
+  text-decoration: none;
+  font-weight: bold;
+}
+
